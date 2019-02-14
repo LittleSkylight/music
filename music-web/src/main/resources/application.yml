@@ -65,7 +65,7 @@ spring:
                     paths: /**
 # MyBatis
 mybatis:
-    type-aliases-package: me.zhyd.music.persistence.beans
+    type-aliases-package: com.lzhpo.music.persistence.beans
     mapper-locations: classpath:/mybatis/*.xml
 # mapper
 mapper:
