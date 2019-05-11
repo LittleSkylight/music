@@ -1,7 +1,7 @@
 # Server settings
 server:
-    port: 8087
-    # HTTP请求和响应头的最大量，以字节为单位，默认值为4096字节,超过此长度的部分不予处理,一般8K。解决java.io.EOFException: null问题
+    port: 8080
+    # HTTP Request And Respond Head Set
     max-http-header-size: 8192
     use-forward-headers: true
     compression:
@@ -21,8 +21,8 @@ spring:
         driver-class-name: com.mysql.jdbc.Driver
         url: jdbc:mysql://localhost:3306/music?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&useSSL=false&allowPublicKeyRetrieval=true
         username: root
-        # MySQL密码
-        password:
+        # MySQL Password
+        password: 123456
     application:
         name: music-web
     freemarker:
