@@ -6,7 +6,7 @@
     <canvas id="canvas"></canvas>
 </div>
 <div class="box">
-    <div id="top">会打篮球的程序猿&nbsp;&nbsp;|&nbsp;&nbsp;music.liuzhaopo.top</div>
+   <#-- <div id="top">会打篮球的程序猿&nbsp;&nbsp;|&nbsp;&nbsp;music.liuzhaopo.top</div>-->
     <div id="player">
         <div class="cover"></div>
         <div class="ctrl">
@@ -39,7 +39,8 @@
             </div>
         </div>
     </div>
-    <div id="lyr"></div>
+    <#-- 显示歌词部分 -->
+    <div id="lyr" style=""></div>
     <ul id="playlist"><strong><span>歌曲列表正在加载中...</span></strong></ul>
 </div>
 

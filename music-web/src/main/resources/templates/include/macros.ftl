@@ -20,9 +20,9 @@
 <#--公共底部-->
 <#macro footer>
     <footer>
-        <p class="keTxtP">
+        <#--<p class="keTxtP">
             <strong> ©${.now?string("yyyy")}&nbsp;music.liuzhaopo.top&nbsp;<a href="http://music.liuzhaopo.top" target="_blank" title="My音乐馆">My音乐馆</a>&nbsp;<a href="http://www.liuzhaopo.top" target="_blank" title="我的博客">我的博客</a> </strong> Powered by <a href="http://www.liuzhaopo.top" target="_blank">刘昭坡</a><span id='cnzz_stat_icon_1273049101' style="margin-left: 10px;position: relative;top: 2px;"></span>
-        </p>
+        </p>-->
         <#--<span id='cnzz_stat_icon_1273049101'></span>-->
     </footer>
     <a class="goTop" title="返回顶部"></a>

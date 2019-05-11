@@ -321,9 +321,17 @@
     //在显示歌词前做好准备工作
     function ready2Play(s) {
         var ly = getLy(s);//得到歌词
-        if (ly == "") {
-            $("#lry").html("本歌暂无歌词！");
+        var lyr = document.getElementById("lyr");
+        console.log("歌词: "+ly);
+        if (ly == "[00:00] .[00:02]歌词暂未收录") {
+            lyr.style.display = 'none';  // 无歌词不显示
+            //$("#lry").html("本歌暂无歌词！");
         }
+        else
+        {
+            lyr.style.display = 'inline'; // 否则显示歌词
+        }
+
         var arrly = ly.split(".");//转化成数组
         tflag = 0;
         for (var i = 0; i < lytext.length; i++) {
